@@ -1294,8 +1294,8 @@ the website, in dark theme
 
 .steps__container.grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Adjust the number '3' to change the number of columns */
-  grid-gap: 20px; /* Adjust the gap between columns */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 .steps__card {
