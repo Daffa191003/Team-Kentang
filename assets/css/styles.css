@@ -1302,3 +1302,21 @@ the website, in dark theme
   width: 100%;
 }
 
+
+.steps__card {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .steps__container.grid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps__card {
+    max-width: 100%;
+  }
+}
+
