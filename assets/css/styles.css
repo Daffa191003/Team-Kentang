@@ -1310,7 +1310,9 @@ the website, in dark theme
   text-align: center;
 }
 
+
 @media (max-width: 600px) {
+
   .steps__container.grid {
     grid-template-columns: 1fr;
   }
